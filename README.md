@@ -3,7 +3,7 @@
 ## What is mbox2eml
 Do you need to import some *.eml* email with your graphical client but the only thing you have is a huge *mbox* backup file?
 ```mbox2eml``` is a KISS (Keep it simple stupid) one-file app, which extracts one *.eml* file for every message contained in your *mbox* file.
-It uses C++ STL and some POSIX primitives. It can only run under linux platform with gcc.
+It uses C++ STL and some POSIX primitives. It can be compiled on WSL or linux. MacOS is not tested.
 
 ## Build
 ```
