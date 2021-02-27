@@ -18,7 +18,7 @@ produces one file per every email contained in MBoxFile
 
 ## Known bugs
 - Further runs of this program will overwrite older files
-- Does not care about text encoding
+- Does not care about text encoding, for chinese character, only show original base64 encrypt ascii as filename.
 - Could break inline-PGP
 
 ## License
